@@ -1,0 +1,89 @@
+html {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(8, 8, 8);
+  height: 100vh;
+}
+
+#contact {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(8, 8, 8);
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.contact-form {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto; /* 폼을 가운데 정렬 */
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.input-group input {
+  background-color: transparent;
+  border: 1px solid white;
+  flex: 1;
+}
+
+input, textarea {
+  background-color: transparent;
+  border: 1px solid white;
+  width: 100%;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+  height: 150px;
+  resize: none;
+}
+
+button {
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-sizing: border-box;
+  border: none;
+  background-color: #ffffff;
+  font-weight: bold;
+  color: black;
+}
+
+button:hover {
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  border: 1px solid #fff;
+  box-sizing: border-box;
+}
+
+button:focus {
+  outline: none;
+}
