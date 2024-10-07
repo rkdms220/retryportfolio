@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/retryportfolio/static/css/main.46464b6b.css",
-    "main.js": "/retryportfolio/static/js/main.fcffb2f0.js",
+    "main.js": "/retryportfolio/static/js/main.0e4668b1.js",
     "index.html": "/retryportfolio/index.html",
     "main.46464b6b.css.map": "/retryportfolio/static/css/main.46464b6b.css.map",
-    "main.fcffb2f0.js.map": "/retryportfolio/static/js/main.fcffb2f0.js.map"
+    "main.0e4668b1.js.map": "/retryportfolio/static/js/main.0e4668b1.js.map"
   },
   "entrypoints": [
     "static/css/main.46464b6b.css",
-    "static/js/main.fcffb2f0.js"
+    "static/js/main.0e4668b1.js"
   ]
 }
